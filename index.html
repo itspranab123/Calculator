@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculetor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="body">
+
+        <div class="disply-part">
+            <div class="solar-part">
+                <h3 style="display: inline-block; margin: 0.5rem 0;">CT-200N</h3>
+                <div class="solar-pannel">
+                    <div class="solar-box"></div>
+                </div>
+            </div>
+            <div class="display">
+                <input type="text" value="0" readonly>
+            </div>
+        </div>
+
+        <div class="button-part">
+            <button style="background-color: rgb(255, 80, 71);">C/CE</button>
+            <button oneclick="addvalue('/')">%</button>
+            <button style="font-size: 1.3rem;">×</button>
+            <button oneclick="addvalue('/')">1</button>
+            <button oneclick="addvalue('/')">2</button>
+            <button style="font-size: 1.3rem;">÷</button>
+            <button>3</button>
+            <button>4</button>
+            <button style="font-size: 1.3rem;">+</button>
+            <button>5</button>
+            <button>6</button>
+            <button style="font-size: 1.3rem;">-</button>
+            <button>7</button>
+            <button>8</button>
+            <button style="font-size: 1.3rem;">.</button>
+            <button>9</button>
+            <button>0</button>
+            <button style="font-size: 1.5rem;">=</button>
+        </div>
+
+    </div>
+
+    <script>
+        let desplay = document.getElementById('display');
+        let eqation = ''; function addValue(val) {
+            equation += val;
+            display.value = eqation;
+        }
+        function Calculetor() {
+            let answer = evel(eqation);
+            display.value = answer;
+            eqation = '';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+.body {
+    height: 20rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: 80px;
+    padding: 1rem;
+    background-color: #ffbdbd;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 16px #beb7b7;
+}
+
+.solar-pannel {
+    height: 1.6rem;
+    width: 5rem;
+    border: 2px solid #000000;
+    float: right;
+    margin: 0.5rem 0;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
+    box-shadow: 0 0 4px black;
+}
+
+.solar-box {
+    height: 1.6rem;
+    width: 1.6rem;
+    border-left: 2px dotted #000000;
+    border-right: 2px dotted #000000;
+}
+
+.display input {
+    height: 2rem;
+    width: 96%;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    margin-top: 0.2rem;
+    box-shadow: 0 0 4px black;
+}
+
+.button-part {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 65%;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.button-part button{
+    height:2rem;
+    width: 3.5rem;
+    color: aliceblue;
+    border-radius: 0.3rem;
+    background-color: #121212;
+   box-shadow: 2px 2px 5px #000000;
+}
+
